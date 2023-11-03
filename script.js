@@ -8,7 +8,7 @@ document.getElementById('submitBtn').addEventListener('click', function() {
 
 function fetchChatGPTResponse(question) {
     const API_URL = 'https://api.openai.com/v1/engines/davinci/completions'; // Replace with the correct endpoint if different
-    const API_KEY = 'YOUR_SECRET_KEY'; // Replace with your secret key
+    const API_KEY = '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'; // Replace with your secret key
 
     fetch(API_URL, {
         method: 'POST',
